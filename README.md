@@ -15,7 +15,6 @@ python 3.7.2
 # How to run
 
 1. Modify host configuration file. The configuration file should look like this.
-
 ```
 <username>@<server_ip1>
 <username>@<server_ip2>
@@ -25,7 +24,6 @@ python 3.7.2
 2. Modify job configuration file. Each line corresponding to a shell command. The program will automatically dispatch jobs to the local workers and the hosts specified in the host configuration file.
 
 Now, the configuration file should look like this.
-
 ```
 python3 demo.py -n 5
 python3 demo.py -n 2
@@ -33,6 +31,11 @@ python3 demo.py -n 3
 python3 demo.py -n 6
 python3 demo.py -n 1
 python3 demo.py -n 4
+```
+
+3. Run the code.
+```
+$ python3 dispatcher.py --num_local_workers 0 --host host.config --job jobs.config
 ```
 
 # Demo
