@@ -35,7 +35,7 @@ python3 demo.py -n 4
 
 3. Run the code.
 ```
-$ python3 dispatcher.py --num_local_workers 0 --host host.config --job jobs.config
+$ python3 dispatcher.py --num_local_workers 0 --host hosts.config --job jobs.config
 ```
 
 # Demo
