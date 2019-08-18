@@ -10,7 +10,7 @@ python 3.7.2
 
 2. **--job**: job configuration path.
 
-3. **--num_local_workers**: number of local workers. You can set  Default: 1
+3. **--num_local_workers**: number of local workers. Default: 1
 
 # How to run
 
